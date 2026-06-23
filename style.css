@@ -914,9 +914,7 @@ nav{
 }
 
 .certificate-right a:hover{
-
     background:#e5e5f0;
-
     transform:translateY(-3px);
 }
 
@@ -928,9 +926,6 @@ nav{
 
     color:#ECECF3;
 }
-
-
-
 
 /* CONTACT SECTION */
 
@@ -964,36 +959,12 @@ nav{
 }
 
 .social-icons a:hover{
-
     transform:translateY(-5px);
-
     /* background:#38bdf8; */
-
     /* color:#0f172a; */
-
     box-shadow:
     0 0 30px rgba(56,189,248,.6);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     min-height:250px;
 
@@ -1054,147 +1025,6 @@ footer{
 
 .footer-left i,
 .footer-right i{
-
     margin-right:15px;
-
     width:25px;
-}
-
-
-@media (max-width:768px){
-
-    .hero{
-        flex-direction: column-reverse;
-        text-align: center;
-        padding: 30px 20px;
-    }
-
-    .hero-image img{
-        width: 250px;
-        height: auto;
-    }
-
-    .hero h1{
-        font-size: 2.5rem;
-    }
-
-    .hero h2{
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width:768px){
-
-    .skill-categories{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .category{
-        width: 45%;
-    }
-}
-
-.category{
-    width:100%;
-}
-
-@media (max-width:768px){
-
-    .skills-group{
-        justify-content:center;
-    }
-
-    .skills-group span{
-        font-size:.9rem;
-        padding:10px 15px;
-    }
-
-}
-
-@media(max-width:768px){
-
-    .projects-container{
-        display:flex;
-        flex-direction:column;
-        gap:25px;
-    }
-
-    .project-card{
-        width:100%;
-    }
-
-}
-
-@media(max-width:768px){
-
-    .experience-header{
-        flex-direction:column;
-        align-items:flex-start;
-        gap:10px;
-    }
-
-}
-
-@media(max-width:768px){
-
-    .certificate-top{
-        flex-direction:column;
-        gap:10px;
-    }
-
-    .certificate-right{
-        align-self:flex-start;
-    }
-
-}
-
-@media(max-width:768px){
-
-    .footer-container{
-        flex-direction:column;
-        gap:20px;
-    }
-
-    .footer-right br{
-        display:none;
-    }
-
-}
-
-img{
-    max-width:100%;
-    height:auto;
-}
-
-@media(max-width:768px){
-
-    h1{
-        font-size:2rem;
-    }
-
-    h2{
-        font-size:1.3rem;
-    }
-
-    p{
-        font-size:0.95rem;
-    }
-
-}
-
-@media(max-width:480px){
-
-    .project-links{
-        flex-direction:column;
-        gap:10px;
-    }
-
-    .project-links a{
-        width:100%;
-        text-align:center;
-    }
-
 }
