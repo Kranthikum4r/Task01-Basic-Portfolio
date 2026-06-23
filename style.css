@@ -87,6 +87,27 @@ nav{
     0 5px 20px rgba(56,189,248,.5);
 }
 
+@media (max-width:768px){
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .hero-image img{
+        width: 250px;
+        height: auto;
+    }
+
+    .hero h1{
+        font-size: 2.5rem;
+    }
+
+    .hero h2{
+        font-size: 1.3rem;
+    }
+}
 
 
 /* HERO SECTION */
