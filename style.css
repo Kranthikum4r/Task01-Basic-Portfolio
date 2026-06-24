@@ -224,6 +224,7 @@ nav{
 
 /* RIGHT SIDE */
 .hero-image{
+    margin-top: 37px;
     width:40%;
 
     display:flex;
@@ -234,7 +235,6 @@ nav{
 }
 
 .hero-image img{
-    margin-top: 37px;
     /* width:350px; */
     width:550px;
     /* 550 px */
