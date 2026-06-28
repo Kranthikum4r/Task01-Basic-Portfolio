@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    zoom: 90%;
+    zoom: 100%;
     min-height:100vh;
 
     background:linear-gradient(
@@ -43,21 +43,39 @@ footer{
 }
 
 nav{
-    display:flex;
-    gap:15px;
+    width:90%;
+    max-width:1200px;
 
-    padding:12px 25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:14px 25px;
 
     background:rgba(255,255,255,.08);
 
-    border:1px solid rgba(255,255,255,.1);
+    border:1px solid rgba(255,255,255,.12);
 
     backdrop-filter:blur(20px);
 
     border-radius:50px;
 
-    box-shadow:
-    0 8px 32px rgba(0,0,0,.3);
+    box-shadow:0 8px 32px rgba(0,0,0,.3);
+}
+
+.logo{
+    color:white;
+    font-size:22px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    gap:15px;
+}
+
+.menu-toggle{
+    display:none;
 }
 
 .top-options{
@@ -87,27 +105,6 @@ nav{
     0 5px 20px rgba(56,189,248,.5);
 }
 
-@media (max-width:768px){
-
-    .hero{
-        flex-direction: column-reverse;
-        text-align: center;
-        padding: 30px 20px;
-    }
-
-    .hero-image img{
-        width: 250px;
-        height: auto;
-    }
-
-    .hero h1{
-        font-size: 2.5rem;
-    }
-
-    .hero h2{
-        font-size: 1.3rem;
-    }
-}
 
 
 /* HERO SECTION */
@@ -915,7 +912,9 @@ nav{
 }
 
 .certificate-right a:hover{
+
     background:#e5e5f0;
+
     transform:translateY(-3px);
 }
 
@@ -927,6 +926,9 @@ nav{
 
     color:#ECECF3;
 }
+
+
+
 
 /* CONTACT SECTION */
 
@@ -960,12 +962,18 @@ nav{
 }
 
 .social-icons a:hover{
+
     transform:translateY(-5px);
+
     /* background:#38bdf8; */
+
     /* color:#0f172a; */
+
     box-shadow:
     0 0 30px rgba(56,189,248,.6);
 }
+
+
 footer{
     min-height:250px;
 
@@ -1026,10 +1034,13 @@ footer{
 
 .footer-left i,
 .footer-right i{
+
     margin-right:15px;
+
     width:25px;
 }
-* ==========================================
+
+/* ==========================================
    TABLETS (992px and below)
 ========================================== */
 
